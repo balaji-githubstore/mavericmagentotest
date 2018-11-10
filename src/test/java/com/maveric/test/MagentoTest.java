@@ -10,8 +10,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -28,8 +26,7 @@ public class MagentoTest {
 		System.setProperty("webdriver.ie.driver", "./drivers/IEDriverserver.exe");
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-		
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 		wait = new WebDriverWait(driver, 40);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
