@@ -28,7 +28,7 @@ public class MagentoTest {
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeOptions opt =new ChromeOptions();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(opt);
 		wait = new WebDriverWait(driver, 40);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
