@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Success]]>
+    </line>
+  </reporter-output>
+  <suite name="com.maveric.test.MagentoTest" duration-ms="23668" started-at="2018-11-10T07:22:50Z" finished-at="2018-11-10T07:23:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23668" started-at="2018-11-10T07:22:50Z" finished-at="2018-11-10T07:23:13Z">
+      <class name="com.maveric.test.MagentoTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.maveric.test.MagentoTest@7225790e]" name="openBrowser" is-config="true" duration-ms="12212" started-at="2018-11-10T07:22:50Z" finished-at="2018-11-10T07:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="CredentialTest()[pri:0, instance:com.maveric.test.MagentoTest@7225790e]" name="CredentialTest" duration-ms="10642" started-at="2018-11-10T07:23:02Z" finished-at="2018-11-10T07:23:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CredentialTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.maveric.test.MagentoTest@7225790e]" name="closeBrowser" is-config="true" duration-ms="789" started-at="2018-11-10T07:23:13Z" finished-at="2018-11-10T07:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maveric.test.MagentoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.maveric.test.MagentoTest -->
+</testng-results>
